@@ -1,0 +1,69 @@
+.box {
+    box-sizing: border-box;
+    width: 90%;
+    min-height: 80px;
+    background: #FFFFFF;
+    border: 2px solid #62AAFF;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.state {
+    max-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.notConfirmed{
+    color: #62AAFF;
+    max-width: 60px;
+    text-align: center;
+}
+
+.completed{
+    background-color: gray;
+}
+
+.expected{
+    background-color: #62AAFF;
+}
+
+.state p{
+    margin-top: 50%; 
+    color: white;
+}
+
+.scheduleInfo{
+    align-items: center;
+    text-align: center;
+}
+
+.approveBtn{
+    border-radius: 10px;
+    background-color: #62AAFF;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.refuseBtn{
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.completeBtn{
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    /* margin-left: 5px; */
+    position: absolute;
+    right : 8%;
+}

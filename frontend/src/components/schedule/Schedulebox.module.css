@@ -1,0 +1,28 @@
+.searchBar{
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+.selectBox,
+.btn{
+    display: inline-block;
+    width: 100px;
+}
+
+.btn{
+    margin-left: 10px;
+}
+
+.btn button{
+    width: 100%;
+}
+
+.pageBar{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.pageBar *{
+    width: 100%;
+    text-align: center;
+}

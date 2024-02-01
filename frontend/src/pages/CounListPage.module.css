@@ -1,0 +1,50 @@
+.list {
+  width: 100%;
+}
+
+.header{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.container {
+  /* flex: 1; */
+}
+
+.sort {
+  width: 100%;
+  float: right;
+}
+
+.cards{
+  width: 100%;
+  /* 무조건 3열로 출력됨 */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.btn {
+  float: right;
+  padding: 5px 10px;
+  border-radius: 15px;
+  /* font-family: "paybooc-Light", sans-serif; */
+  margin: 3px;
+  text-decoration: none;
+  transition: 0.25s;
+
+  border: 3px  #6aafe6;
+  color: #6e6e6e;
+}
+
+.sort {
+  margin : 3px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border-style: none;
+  text-decoration: none;
+  color: #6e6e6e;
+}

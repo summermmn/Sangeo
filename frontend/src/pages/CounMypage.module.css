@@ -1,0 +1,30 @@
+.timeBox{
+  box-sizing: border-box;
+  width: 90%;
+  min-height: 80px;
+  background: #FFFFFF;
+  border: 2px solid #62AAFF;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.selectBox {
+    display: inline;
+    width: 100px;
+}
+
+.dayOption{
+  display: flex;
+}
+
+.dayInput {
+  width : 30px !important;
+}
+
+/* button{
+  margin : 2px !important;
+} */

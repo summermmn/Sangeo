@@ -1,0 +1,23 @@
+
+.resultBox{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.text {
+    width: 90%;
+    margin-left: 5%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.resultImg{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}

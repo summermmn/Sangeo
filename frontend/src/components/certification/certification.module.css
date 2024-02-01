@@ -1,0 +1,50 @@
+.input {
+    display: none;
+}
+
+
+.imgframe {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1em;
+  
+}
+
+
+.square {
+    background-color: rgb(175, 175, 175);
+    border-radius: 20%;
+    width: 8rem;
+    height: 8rem;
+    display: inline-block;
+}
+
+.button{
+    /* display: flex; */
+    justify-content: center;
+}
+
+.authName{
+    /* display: flex; */
+    flex-direction: row-reverse;
+    width: 300px;
+}
+
+input, input:focus{
+    outline: none;
+    transition: .1s;
+}
+
+.authbtn {
+    width: 8rem;
+    height: 8rem;
+    background-color: rgb(175, 175, 175);
+    border-style: none;
+}
+
+.authbtn:hover {
+    opacity: 1.2;
+}
+.deleteBtn{
+    margin-left: 3px;
+}

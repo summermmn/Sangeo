@@ -1,0 +1,33 @@
+/* colors.css에서 어떻게 가져오는걸까 */
+
+.board{
+    position: absolute;
+    left: 10%; /* 중앙정렬 */
+    width: 80%;
+    border: 3px solid #62AAFF;
+    border-radius: 15px;
+}
+
+/* 수정 필요 - 양 옆 조금씩 뜸 */
+.bar{
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 20px;
+    height: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #62AAFF;
+}
+
+.body{
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 15px;
+}
+
+.calForm{
+    background-color: pink;
+    border: 3px solid #62AAFF;
+}

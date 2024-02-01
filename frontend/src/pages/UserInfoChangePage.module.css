@@ -1,0 +1,22 @@
+input{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.ubcBtn{
+    width: 300px;
+    margin-top: 10px;
+}
+
+.imgframe{
+    width: 200px;
+    height: 200px;
+}
+
+.input {
+    display: none;
+}
+
+/* .eachForm{
+    margin-bottom: 5px;
+} */

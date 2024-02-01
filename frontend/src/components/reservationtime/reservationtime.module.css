@@ -1,0 +1,86 @@
+/* .reservForm {
+    align-items: center;
+} */
+
+
+.time_header{
+    width: 100%;
+    border-bottom: 2px dotted;
+    margin-bottom: 10px;
+}
+
+.timeline{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.time_label input{
+    display: none;
+}
+
+.time_label input+span{
+    display: inline-block;
+    margin: 5px;
+    padding: 3px;
+    border: 2px solid #62AAFF;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.time_label input:checked+span{
+    background-color: #62AAFF;
+    color: white;
+}
+
+.reserved input+span{
+    border: 3px solid gray;
+    background-color: #D3D3D3;
+    pointer-events: none;
+}
+
+.rsvBtn{
+    /* border-radius: 10px;
+    background-color: #62AAFF;
+    color: white;
+    font-size: 22px; */
+
+    float: right;
+    border: none;
+    max-width: 90px;
+
+    min-height: 40px;
+    background: linear-gradient(
+        90deg,
+        #62AAFF 0%,
+        #7fb8f8 100%
+    );
+    border-radius: 1000px;
+    color: darkslategray;
+    cursor: pointer;
+    box-shadow: 10px 10px 24px #83bcfd;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.rsvBtn:hover{
+    transform: scale(1.1);
+}
+
+.rsvBtn:hover::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00ffcb;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+}
+

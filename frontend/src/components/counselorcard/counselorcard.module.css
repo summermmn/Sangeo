@@ -1,0 +1,84 @@
+@value makerShadow, makerColorful, mainColor from '../../common/colors.css';
+
+.card {
+    list-style-type: none;
+    border-radius: 1em;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    box-shadow: 3px 3px 8px 1px makerShadow ;
+    height: 24rem;
+    margin: 1em;
+    /* background-color: #62abffa5; */
+}
+
+.card.dark{
+    background-color: rgb(72, 112, 75);
+    color: white;
+}
+
+.card.light {
+    background-color: rgb(195, 231, 95);
+}
+
+.card.colorful {
+    background: makerColorful;
+}
+
+
+.avatar {
+    width : 10em;
+    height: 10em;
+    padding : 1em;
+    margin-left: 0.5em;
+    margin-right: 1em;
+    border-radius: 50%;
+}
+
+.info{
+    width: 100%;
+}
+ 
+.name {
+    font-size : 1.2rem;
+    margin-bottom: 1em;
+}
+
+.name::after {
+    content : '';
+    display : block;
+    width : 100%;
+    height: 2px;
+    transform: translateY(0.5em);
+    background-color: rgb(204, 204, 204);
+}
+
+.details{
+    height: 6rem;
+}
+
+.detail {
+    margin: 0;
+    font-size: 0.9rem;
+    margin-bottom: 0.2em;
+    text-align: left;
+}
+
+.price {
+    background-color: #d4d1d3;
+    width:max-content;
+    padding: 3px;
+    font-size: 0.7rem;
+    
+}
+
+
+
+.score{
+    font-size: 1rem;
+    color: hotpink;
+}
+
+
+.noreview {
+    color: rgb(58, 58, 58);
+}

@@ -1,0 +1,61 @@
+@value makerShadow, makerColorful, mainColor from '../../common/colors.css';
+
+
+
+.cal_header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cal_header *{
+    align-self: center;
+    margin: 0%;
+}
+
+.cal_title{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.week{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.week *{
+    width: 12%;
+    margin-left: 2px;
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    border: none;
+    /* transition: 0.3s; */
+}
+
+
+.day{
+    pointer-events: none;
+}
+
+.sunday{
+    color: red;
+}
+
+.saturday{
+    color: blue;
+}
+
+.today{
+    color: pink;
+}
+
+.notWork{
+    color: #e2e2e2;
+    pointer-events: none;
+}
+
+

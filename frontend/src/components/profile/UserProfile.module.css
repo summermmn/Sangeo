@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.profile{
+    width: 350px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 5%;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.profileImg,
+.info,
+.btn{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.info,
+.btn{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+button{
+    background-color: white;
+    border-radius: 30px;
+    border-color: #62AAFF;
+}
+
+.profileImg img{
+    width: 75px;
+    height: 75px;
+    border: 3px solid #62AAFF;
+    border-radius: 10%;
+    box-sizing: border-box;
+    margin-left: 5px;
+}

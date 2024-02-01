@@ -1,0 +1,16 @@
+.list{
+    width: 100%;
+    text-align: center;
+}
+
+.review{
+    list-style-type: none;
+    margin: 1em;
+    margin-left: 2%;
+    width: 96%;
+    border-radius: 0.2em;
+    border-style: none;
+    box-shadow: 1px 1px 10px 0.1px rgba(158, 158, 158, 0.39);
+    padding: 1em;
+}
+

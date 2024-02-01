@@ -1,0 +1,93 @@
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  /* position: relative; */
+}
+
+
+.container {
+  background: url("../../public/mainback12.gif");
+  background-size: cover;
+  width: 100%;
+  /* height: auto; */
+  height: 100vh;
+  min-height: 100%;
+  display: flex;
+  max-width: 100%;
+  /* position: absolute; */
+  /* max-width: 100%;
+    /* height: auto; 
+    
+
+    /* align-items: center; */
+
+
+
+}
+
+.neon-container {
+  margin: 0 auto;
+
+}
+
+.neon {
+
+  margin-top: 10em;
+
+}
+
+.neon p {
+  font-family: ghanachoco;
+  color: #fd3c19;
+  font-size: 5vw;
+  line-height: 9vw;
+  text-shadow: 0 0 2vw #f8ecee;
+  text-align: center;
+
+  animation: neon 2s ease infinite;
+  -moz-animation: neon 2s ease infinite;
+  -webkit-animation: neon 2s ease infinite;
+}
+
+@font-face {
+  font-family: 'ghanachoco';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ghanachoco.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes neon {
+
+  0%,
+  100% {
+
+    color: #fdde6c;
+  }
+
+  50% {
+    /* text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A; */
+    color: #ac8c1b;
+  }
+}
+
+
+
+/* 폰트모음
+   원스토어
+   @font-face {
+    font-family: 'ONE-Mobile-POP';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+   야놀자
+   @font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  
+  
+  */

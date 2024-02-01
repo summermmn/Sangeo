@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'MICEGothicBold';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.point_color{
+  color: #62AAFF
+}
+
+.point_bgcolor{
+  background-color: #62AAFF
+}
+
+@font-face {
+  font-family: 'EarlyFontDiary';
+  src: url('./fonts/EF_Diary.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MICEGothicBold';
+  src: url('./fonts/MICEGothic.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GangwonEduBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
